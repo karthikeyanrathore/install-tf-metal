@@ -27,7 +27,7 @@ export GRPC_PYTHON_BUILD_SYSTEM_ZLIB=1
 ```
 7. Now is the main step to install tf and other packages (see config.yml) in a virtual env.
 ```bash
-conda env create -f dep.yml -n metal
+conda env create -f config.yml -n metal
 ```
 8. activate metal env.
 ```bash
