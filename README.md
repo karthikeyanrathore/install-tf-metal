@@ -34,3 +34,9 @@ conda env create -f config.yml -n metal
 conda activate metal.
 ```
 
+9. (optional) install pytorch, torchvision, you can follow steps here: https://developer.apple.com/metal/pytorch/
+```bash
+conda install pytorch torchvision torchaudio -c pytorch-nightly
+```
+
+
